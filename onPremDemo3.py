@@ -19,7 +19,7 @@ chrome_options = Options()
 chrome_options.add_argument('--start-maximized')
 
 # 반복할 호출 수
-count = 250
+count = 10
 
 # sleep 시간
 sec = 1000000
@@ -42,7 +42,7 @@ for dirver in range(count):
 for num in range(count):
     # TAB_num
     driver.switch_to.window(tabs[num])
-    driver.get('http://heart.stclab.com:5011')
+    driver.get('http://heart.stclab.com:5002')
 
 
     # API 구간제어 Alert 버튼

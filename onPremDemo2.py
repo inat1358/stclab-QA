@@ -18,7 +18,7 @@ chrome_options = Options()
 chrome_options.add_argument('--start-maximized')
 
 # 반복할 호출 수
-count = 250
+count = 100
 
 # sleep 시간
 sec = 1000000
